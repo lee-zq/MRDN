@@ -1,6 +1,7 @@
-# MRDN
-Source code of super-resolution reconstruction algorithm: MRDN
----
-Paper Title：
-MRDN: A Lightweight Multi-stage Residual Distillation Network for Image Super-Resolution
-Expert Systems With Applications
+# MRDN: A lightweight Multi-stage residual distillation network for image Super-Resolution  
+Authors：X Yang，Y Guo，Z Li，D Zhou，T Li   
+Abstraction：For the deep learning based super-resolution (SR) reconstruction method, researchers try to expand the receptive field to improve the reconstruction quality. With the increase of network depth, the consumption of computing resources is impressive. Therefore, SR technology is challenging to apply to small mobile clients. To deal with this defect, we propose a lightweight multi-stage residual distillation network (MRDN) for the SR task in this paper. The model has made the following two main improvements: First, we design a multi-stage residual distillation block (MRDB). It combines the channel separation and the skip connection to reduce the parameter number and guarantee the network's performance by residual learning. Secondly, we propose efficient pixel attention (EPA) module, which weights different channels according to their importance so that the network can learn more details of pictures. Experiments show that the proposed MRDN is superior to the state-of-the-art models in subjective visual effects and objective evaluation criteria such as PSNR, SSIM, and computational complexity. Taking the basic data set manga109 as an example, the PSNR of this algorithm on scale ×4 reaches 30.66, and the average inference time is 0.021 s. The performance surpasses RFDN, the champion of AIM 2020 Challenge on Efficient Super-Resolution.    
+Keypoints：Image super-resolution Lightweight network Multilevel residual distillation Efficient pixel attention Mobile client  
+Format of reference：  
+[1] Yang X , Guo Y , Li Z ,et al.[MRDN: A lightweight Multi-stage residual distillation network for image Super-Resolution](https://xueshu.baidu.com/usercenter/paper/show?paperid=1x5b0g909j030v70jh4x0jf04k385379&site=xueshu_se)[J].Expert Systems with Application, 2022.   
+Url:  https://xueshu.baidu.com/usercenter/paper/show?paperid=1x5b0g909j030v70jh4x0jf04k385379&site=xueshu_se
